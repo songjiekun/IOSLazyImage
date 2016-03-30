@@ -1,0 +1,14 @@
+PODS:
+  - IOSLazyImage (0.1.0)
+
+DEPENDENCIES:
+  - IOSLazyImage (from `../`)
+
+EXTERNAL SOURCES:
+  IOSLazyImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOSLazyImage: ba3953c4cc834b10df37b01dcd0fe56d817f783d
+
+COCOAPODS: 0.38.2

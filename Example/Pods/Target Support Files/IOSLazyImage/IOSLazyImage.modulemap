@@ -1,0 +1,6 @@
+framework module IOSLazyImage {
+  umbrella header "IOSLazyImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
