@@ -41,4 +41,13 @@
  */
 @property (nonatomic, strong) NSMapTable *imageViewTable;
 
+/**
+ *  异步获取图片到指定的UIImageView
+ *
+ *  @param imageUrl         图片url
+ *  @param defaultImageName 默认图片
+ *  @param imageView        展示图片的imageview
+ */
+-(void)retrieveImage:(NSString*)imageUrl defaultImageName:(NSString*)defaultImageName toImageView:(UIImageView*)imageView;
+
 @end

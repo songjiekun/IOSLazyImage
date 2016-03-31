@@ -171,7 +171,7 @@
                     UIImage *internetImage=[UIImage imageWithData:data];
                     
                     //保存图片到磁盘
-                    BOOL booool=[data writeToFile:filePath atomically:YES];
+                    [data writeToFile:filePath atomically:YES];
                     
                     //图片放到内存缓存中
                     [self.cache setObject:internetImage forKey:filename];
@@ -214,11 +214,17 @@
     /**
      *  url相同的 imageview 进行 uiimage替换
      */
+    //记录需要被删掉的imageview
+    NSMutableArray *keysToDelete = [NSMutableArray array];
+    
     for (UIImageView *imageView in self.imageViewTable) {
         
         NSString *url = [self.imageViewTable objectForKey:imageView];
         
         if ([url isEqualToString:imageUrl]) {
+            
+            //将imageView 加入keysToDelete
+            [keysToDelete addObject:imageView];
             
             //将新载入的uiimage加到图片上
             [imageView setImage:newImage];
@@ -233,6 +239,17 @@
             }];
             
         }
+        
+    }
+    
+    //key不能用imageview
+    
+    /**
+     *  将处理好的imageview从列表删除
+     */
+    for (UIImageView *imageView in keysToDelete) {
+        
+        [self.imageViewTable removeObjectForKey:imageView];
         
     }
     

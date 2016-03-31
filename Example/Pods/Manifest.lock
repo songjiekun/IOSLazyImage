@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IOSLazyImage: ba3953c4cc834b10df37b01dcd0fe56d817f783d
+  IOSLazyImage: ad655f7c5f6ef7f245333b9677d8a7d3d6156c30
 
 COCOAPODS: 0.38.2
