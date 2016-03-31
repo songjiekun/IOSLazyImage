@@ -11,9 +11,11 @@ An image manager library to help you lazily load image from remote url to your U
 ## Feature
 
 2 levels of cache.Memory cache,Disk cache
+
 decompress image before loading into memory.
 
 2层缓存，内存缓存，硬盘缓存
+
 预解压缩图片
 
 ## Usage
@@ -21,20 +23,26 @@ decompress image before loading into memory.
 (To run the example project, clone the repo, and run `pod install` from the Example directory first.)
 
 Super easy to use. 
+
 Only two lines of code.
+
 简单易用
+
 两行代码
 
 
-don't forget to import <IOSLazyImage/IOSLIManager.h>
+don't forget to import IOSLazyImage/IOSLIManager.h
 
-获取IOSLIManager   get IOSLIManager refrence
+获取IOSLIManager
+
+get IOSLIManager refrence
 
 ```objc
 IOSLIManager *liManager = [IOSLIManager getSharedManager];
 ```
 
 提供图片url 默认图片的名称 以及图片对应uiimageview
+
 provide image url,default image file name and the imageview which will load the image
 ```objc
 [liManager retrieveImage:imageurl defaultImageName:@"1.png" toImageView:cell.imageView];
