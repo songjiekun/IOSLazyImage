@@ -270,8 +270,12 @@
     //是否为新url的标记
     BOOL isNewURL = true;
     
+    //标记是否为新imageview
+    BOOL isNewImageView = true;
+    
     /**
      *  判断newImageUrl 是否为新url
+     *  判断newImageView 是否为新uiimageview
      */
     for (UIImageView *imageView in self.imageViewTable) {
         
@@ -283,14 +287,34 @@
             
         }
         
+        if (imageView == newImageView) {
+            
+            isNewImageView = false;
+            
+        }
+        
     }
 
+    
     
     /**
      *  将新的UIImageView 和 URL 存入NSMapTable中，
      *  如果imageview 相同 则会替换掉url，如果imageview 不同 就新添加url
      */
-    [self.imageViewTable setObject:newImageUrl forKey:newImageView];
+    if (isNewImageView) {
+        
+        [self.imageViewTable setObject:newImageUrl forKey:newImageView];
+        
+    }
+    else{
+        
+        [self.imageViewTable removeObjectForKey:newImageView];
+        
+        [self.imageViewTable setObject:newImageUrl forKey:newImageView];
+        
+    }
+    
+    
     
     return isNewURL;
     

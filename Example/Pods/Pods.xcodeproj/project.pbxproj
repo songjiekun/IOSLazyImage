@@ -10,6 +10,19 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0207E67D799DB1663D564B55CDDCBDAA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>903790F63BEBF483F187076A2F1DB56C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>03A223EA6DD571DE2096A4DCF69F4E2B</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -164,6 +177,19 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>0A9E0E97869B134D55B424D3E375297C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B84E6A29A9529BC1BAB6D3FAD68D0E0A</string>
+			<key>remoteInfo</key>
+			<string>IOSLazyImage-IOSLazyImage</string>
+		</dict>
 		<key>0B57334D6C23DADAA4F7D802A5760EB2</key>
 		<dict>
 			<key>buildSettings</key>
@@ -237,6 +263,13 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>0B908D2E1D2BAF914ACB566F05EE3BEF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F088977E4B4AB07D61BDF62745F84378</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>0BFF8C8FF6B5C325269554B86D4DE06F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -249,19 +282,6 @@
 			<string>Pods-IOSLazyImage_Example-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D39F4C6C726E95D15F2028A9B24E279</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FCEAC8762B1971E3A530AC90E1064775</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>0F1FEE22E5E5BC31F62B1153F7E1A577</key>
 		<dict>
@@ -290,7 +310,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>D811078734127414D37C8C15A8F04368</string>
+				<string>4F1DDC10316E21F461F31E53683F929E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -303,6 +323,17 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>13A5CFBB0D2EEA6010A974217F5E28CB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>IOSLazyImage</string>
+			<key>target</key>
+			<string>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</string>
+			<key>targetProxy</key>
+			<string>1CB749F4C1BBA19E73A210DE54A4783A</string>
+		</dict>
 		<key>14E15380991B5C4D98CC09C42F43B54E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -311,19 +342,6 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>Pods-IOSLazyImage_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16FA26B5ADE8CF11C29E02E56244FD0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>IOSLazyImage-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -391,16 +409,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>1C4376770EB84120E91377B80F025748</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>IOSLazyImage-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1CA587940E89C7953A2A70704D6895E7</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>96CA4D36400B67C75E0A085957BF89C5</string>
 				<string>1AAB4473D4FEB97C41EC99B9F8F892A5</string>
-				<string>16FA26B5ADE8CF11C29E02E56244FD0D</string>
-				<string>8076626E0C7229EB86002CEC919A59EF</string>
+				<string>606CB843F6036FBE0C83B5D3811037ED</string>
+				<string>F088977E4B4AB07D61BDF62745F84378</string>
 				<string>289D62210168CB318474CC480E77ECEC</string>
-				<string>DC18E8E2494FD5EC00B0CCE2603E66C4</string>
+				<string>1C4376770EB84120E91377B80F025748</string>
 				<string>BCD93EE88263CE96342FC9CF2C526245</string>
 			</array>
 			<key>isa</key>
@@ -412,27 +443,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1D2B80B64AEAA6727722DF26FA9E885D</key>
+		<key>1CB749F4C1BBA19E73A210DE54A4783A</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>16FA26B5ADE8CF11C29E02E56244FD0D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>IOSLazyImage</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</string>
+			<key>remoteInfo</key>
+			<string>IOSLazyImage</string>
 		</dict>
 		<key>20110B382101C999FBA3A667E4177D60</key>
 		<dict>
@@ -518,19 +540,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>22BCB7C927C1A84DB739F0A768060261</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
 		<key>289D62210168CB318474CC480E77ECEC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -544,12 +553,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2CC733CDFE8E1AB0643594ED01565FC3</key>
+		<key>2B76292186CB29A6CEC6F7B43C2F4C8B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>9EA12DD6A854F1208C47C26FFC892A45</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</string>
+			<key>remoteInfo</key>
+			<string>IOSLazyImage</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -565,24 +580,55 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>320DACBE5033F15FE3EFC6282705EC1D</key>
+		<key>3391296FED0258A0A9E5DFACF5C6385C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3AAB97AAB8AFC90081895042A46087C0</string>
+			<string>6A75A6D65471CEB767A1917F5AE55AE1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>34CE1173324E8FCB7AB957AF1E2E3B19</key>
 		<dict>
 			<key>fileRef</key>
-			<string>22BCB7C927C1A84DB739F0A768060261</string>
+			<string>A8A2DFD83473FE7A8C050F11CED2F4C7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>35DAACC67980DEDA189473AA81321E97</key>
+		<key>37434516BD6337B01955504AB7A9288F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>IOSLazyImage-IOSLazyImage</string>
+			<key>target</key>
+			<string>B84E6A29A9529BC1BAB6D3FAD68D0E0A</string>
+			<key>targetProxy</key>
+			<string>0A9E0E97869B134D55B424D3E375297C</string>
+		</dict>
+		<key>3A02A8F7C576EEF00998F7A9736686DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-IOSLazyImage_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3D9A2900300A7D91C7A670A5A8F9ECD9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>16FA26B5ADE8CF11C29E02E56244FD0D</string>
+			<string>606CB843F6036FBE0C83B5D3811037ED</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -616,7 +662,7 @@
 				<key>MODULEMAP_FILE</key>
 				<string>Target Support Files/IOSLazyImage/IOSLazyImage.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>PRODUCT_NAME</key>
 				<string>IOSLazyImage</string>
 				<key>SDKROOT</key>
@@ -633,33 +679,20 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
-		<key>3A02A8F7C576EEF00998F7A9736686DC</key>
+		<key>3EAC1C619E26EA8A3FF07ED473A67C9B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DDAA3E7D29412A5F57C9BB280DA64AD0</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-IOSLazyImage_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AAB97AAB8AFC90081895042A46087C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>IOSLIManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>40E7090CA9C022DB67E72F0A6D247B4D</key>
 		<dict>
@@ -674,18 +707,59 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4F03D24662A98CF4459C1470C1C81E7C</key>
+		<key>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</key>
 		<dict>
+			<key>buildConfigurationList</key>
+			<string>B0CB0C7A4527A5D4E4E6829D06CB3B1D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5D19F070B78F42376A2B772C19CD7CA7</string>
+				<string>3EAC1C619E26EA8A3FF07ED473A67C9B</string>
+				<string>0207E67D799DB1663D564B55CDDCBDAA</string>
+				<string>81878E8D6A7CF218E11CB287B6D5A552</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>37434516BD6337B01955504AB7A9288F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>IOSLazyImage</string>
+			<key>productName</key>
+			<string>IOSLazyImage</string>
+			<key>productReference</key>
+			<string>9B6DEE9765CD420BCF404848136F090B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>4F1DDC10316E21F461F31E53683F929E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>IOSLazyImage</string>
+			<key>target</key>
+			<string>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</string>
+			<key>targetProxy</key>
+			<string>2B76292186CB29A6CEC6F7B43C2F4C8B</string>
+		</dict>
+		<key>4F872E5E91A461E4E31B2926F64125DF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IOSLazyImage.bundle</string>
 			<key>path</key>
-			<string>IOSLIManager.h</string>
+			<string>IOSLazyImage.bundle</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>4FC001393F37A4F2174E6605FC98BAB4</key>
 		<dict>
@@ -700,6 +774,20 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>4FD2085D854A052BF3DEB924ADC0B6B6</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>869064BA4D117CD4E9F87ED8C074E719</string>
+				<string>E865DD653C09C8E3AABA03176548F1B4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>500A646CFD7BDD55BAA4FE4E45010E4F</key>
 		<dict>
@@ -720,7 +808,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>22BCB7C927C1A84DB739F0A768060261</string>
+				<string>A8A2DFD83473FE7A8C050F11CED2F4C7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -756,7 +844,7 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>DAFE794F794CEA82AA195AC02679139B</string>
+				<string>13A5CFBB0D2EEA6010A974217F5E28CB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -769,6 +857,20 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>5D19F070B78F42376A2B772C19CD7CA7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CDFDDF14F0F09832625825689B461BE9</string>
+				<string>0B908D2E1D2BAF914ACB566F05EE3BEF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>5E1FD2E79D7FBB295395C6CA78F576DE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -779,6 +881,19 @@
 			<string>text.script.sh</string>
 			<key>path</key>
 			<string>Pods-IOSLazyImage_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>606CB843F6036FBE0C83B5D3811037ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>IOSLazyImage-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -795,18 +910,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6C0ABFCCFD587B8C48243FF808C7346F</key>
+		<key>6A75A6D65471CEB767A1917F5AE55AE1</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>98F7588128304DC7BF3CC614E34750EB</string>
-			<key>remoteInfo</key>
-			<string>IOSLazyImage-IOSLazyImage</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>IOSLIManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6F0311683DEC614D9654B83E043C437D</key>
 		<dict>
@@ -881,6 +996,30 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>76D80618516224FA7DFE85F737A68387</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>79A8153A5586626EB6625D88143E30A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>IOSLIManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -893,19 +1032,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8076626E0C7229EB86002CEC919A59EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>IOSLazyImage-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -922,16 +1048,75 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>839EF4DEE82935E62EF0F504F2641436</key>
+		<key>81878E8D6A7CF218E11CB287B6D5A552</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array/>
+			<array>
+				<string>3391296FED0258A0A9E5DFACF5C6385C</string>
+				<string>87559A63EBD38A7210E1E67A4A2084B9</string>
+			</array>
 			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>8471CEE3B2B4CBF2DFF0E9261CD7BDD2</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>606CB843F6036FBE0C83B5D3811037ED</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>0.1.0</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>0.1.0</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>$(CURRENT_PROJECT_VERSION)</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/IOSLazyImage/IOSLazyImage-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/IOSLazyImage/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/IOSLazyImage/IOSLazyImage.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>IOSLazyImage</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>847645CCB0854240F2AB47014B4437EE</key>
 		<dict>
@@ -962,23 +1147,52 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>893DCD046C20D4F2634F7A25F1D26897</key>
+		<key>869064BA4D117CD4E9F87ED8C074E719</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>606CB843F6036FBE0C83B5D3811037ED</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>IOSLazyImage</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>87559A63EBD38A7210E1E67A4A2084B9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1C4376770EB84120E91377B80F025748</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8A380D77C9F3E1F0CBDCD45A8318448B</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array/>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>8E3193CEFE63B411D4E12112057C676A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8076626E0C7229EB86002CEC919A59EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>8FE99F51356540A0746146C17AE573BE</key>
 		<dict>
@@ -993,6 +1207,13 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>903790F63BEBF483F187076A2F1DB56C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F872E5E91A461E4E31B2926F64125DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>91DA05946D5D395448DF4CD0C2A4B842</key>
 		<dict>
@@ -1038,70 +1259,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>96E81C04CEAF4145BBEB7C2788CB6512</key>
+		<key>9B6DEE9765CD420BCF404848136F090B</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2CC733CDFE8E1AB0643594ED01565FC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
-		</dict>
-		<key>9824843EF89378C9E63829DB79458AD0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E1D304B395D1FB4F085DF157308B05EA</string>
-				<string>35DAACC67980DEDA189473AA81321E97</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>98F7588128304DC7BF3CC614E34750EB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C54A9C8619F7E4DB18047E6275220C54</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AE8B49CD44DC2D5D0B626A218784A69C</string>
-				<string>893DCD046C20D4F2634F7A25F1D26897</string>
-				<string>839EF4DEE82935E62EF0F504F2641436</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>IOSLazyImage-IOSLazyImage</string>
-			<key>productName</key>
-			<string>IOSLazyImage-IOSLazyImage</string>
-			<key>productReference</key>
-			<string>9EA12DD6A854F1208C47C26FFC892A45</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>9936EE327FDF682E70FF40BAF7E6F07C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FC9453C6B406F5DEE36F50CC04ECFA83</string>
-			<key>remoteInfo</key>
-			<string>IOSLazyImage</string>
+			<string>IOSLazyImage.framework</string>
+			<key>path</key>
+			<string>IOSLazyImage.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>9B9AC7A31F98AB629D2AC34CFCBEBFD4</key>
 		<dict>
@@ -1140,21 +1311,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9EA12DD6A854F1208C47C26FFC892A45</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>IOSLazyImage.bundle</string>
-			<key>path</key>
-			<string>IOSLazyImage.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>A724739A01332F13FDBC3BE536718FED</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1168,19 +1324,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A971D358AB410B7FF22A24379B883675</key>
+		<key>A8A2DFD83473FE7A8C050F11CED2F4C7</key>
 		<dict>
-			<key>fileRef</key>
-			<string>4F03D24662A98CF4459C1470C1C81E7C</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>AA3C6F5E5C9AF46E3660276C946484C8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>AA85A51C7EE2FF330E80000212F24FF9</key>
 		<dict>
@@ -1197,21 +1363,24 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>AE8B49CD44DC2D5D0B626A218784A69C</key>
+		<key>B0CB0C7A4527A5D4E4E6829D06CB3B1D</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3D9A2900300A7D91C7A670A5A8F9ECD9</string>
+				<string>8471CEE3B2B4CBF2DFF0E9261CD7BDD2</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>B677E120DC868CCE229EBFA83017EF9C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>22BCB7C927C1A84DB739F0A768060261</string>
+			<string>A8A2DFD83473FE7A8C050F11CED2F4C7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1227,6 +1396,31 @@
 			<string>Pods-IOSLazyImage_Tests-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B84E6A29A9529BC1BAB6D3FAD68D0E0A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>4FD2085D854A052BF3DEB924ADC0B6B6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>76D80618516224FA7DFE85F737A68387</string>
+				<string>AA3C6F5E5C9AF46E3660276C946484C8</string>
+				<string>8A380D77C9F3E1F0CBDCD45A8318448B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>IOSLazyImage-IOSLazyImage</string>
+			<key>productName</key>
+			<string>IOSLazyImage-IOSLazyImage</string>
+			<key>productReference</key>
+			<string>4F872E5E91A461E4E31B2926F64125DF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1335,8 +1529,8 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4F03D24662A98CF4459C1470C1C81E7C</string>
-				<string>3AAB97AAB8AFC90081895042A46087C0</string>
+				<string>6A75A6D65471CEB767A1917F5AE55AE1</string>
+				<string>79A8153A5586626EB6625D88143E30A9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1361,26 +1555,12 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>C54A9C8619F7E4DB18047E6275220C54</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1D2B80B64AEAA6727722DF26FA9E885D</string>
-				<string>F699CCC5CB837B6E727BB35476D8503E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
 		<key>CCA510CFBEA2D207524CDA0D73C3B561</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>9EA12DD6A854F1208C47C26FFC892A45</string>
-				<string>D03365205668B9C9A0F7C80282BF427E</string>
+				<string>4F872E5E91A461E4E31B2926F64125DF</string>
+				<string>9B6DEE9765CD420BCF404848136F090B</string>
 				<string>AA85A51C7EE2FF330E80000212F24FF9</string>
 				<string>D9E4A762335CAFC1447E8C4A2F7B00D5</string>
 			</array>
@@ -1390,6 +1570,13 @@
 			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CDFDDF14F0F09832625825689B461BE9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>79A8153A5586626EB6625D88143E30A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CE91B5F23D16D413A8244101547358F2</key>
 		<dict>
@@ -1403,21 +1590,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>D03365205668B9C9A0F7C80282BF427E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>IOSLazyImage.framework</string>
-			<key>path</key>
-			<string>IOSLazyImage.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1454,22 +1626,11 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>FC9453C6B406F5DEE36F50CC04ECFA83</string>
-				<string>98F7588128304DC7BF3CC614E34750EB</string>
+				<string>488BD3DE5D8F7BD4CE2FBDE87B43C2A5</string>
+				<string>B84E6A29A9529BC1BAB6D3FAD68D0E0A</string>
 				<string>550A6FE61D8F859E0648288050DC2CEC</string>
 				<string>1275CC849CFD084822662CEA96BE53B8</string>
 			</array>
-		</dict>
-		<key>D811078734127414D37C8C15A8F04368</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>IOSLazyImage</string>
-			<key>target</key>
-			<string>FC9453C6B406F5DEE36F50CC04ECFA83</string>
-			<key>targetProxy</key>
-			<string>FF9494FE7938DD77F3E269276BE8E966</string>
 		</dict>
 		<key>D9E4A762335CAFC1447E8C4A2F7B00D5</key>
 		<dict>
@@ -1486,30 +1647,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DAFE794F794CEA82AA195AC02679139B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>IOSLazyImage</string>
-			<key>target</key>
-			<string>FC9453C6B406F5DEE36F50CC04ECFA83</string>
-			<key>targetProxy</key>
-			<string>9936EE327FDF682E70FF40BAF7E6F07C</string>
-		</dict>
-		<key>DC18E8E2494FD5EC00B0CCE2603E66C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>IOSLazyImage-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DC339437C2F1EF3049744F81B77A3016</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1522,6 +1659,13 @@
 			<string>Pods-IOSLazyImage_Tests.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DDAA3E7D29412A5F57C9BB280DA64AD0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8A2DFD83473FE7A8C050F11CED2F4C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>DE76DB46A8F9ADF230AAF97953294B2F</key>
 		<dict>
@@ -1556,106 +1700,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E1D304B395D1FB4F085DF157308B05EA</key>
+		<key>E865DD653C09C8E3AABA03176548F1B4</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>16FA26B5ADE8CF11C29E02E56244FD0D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/IOSLazyImage/IOSLazyImage-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/IOSLazyImage/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/IOSLazyImage/IOSLazyImage.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>IOSLazyImage</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EC67B67D269A310D482C3B14B4BB1635</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-IOSLazyImage_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED237509FEDB80B450E15217C3BC9533</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>320DACBE5033F15FE3EFC6282705EC1D</string>
-				<string>8E3193CEFE63B411D4E12112057C676A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDBBC510C7488499F5E8F88003B23F34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-IOSLazyImage_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F699CCC5CB837B6E727BB35476D8503E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>16FA26B5ADE8CF11C29E02E56244FD0D</string>
+			<string>606CB843F6036FBE0C83B5D3811037ED</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1674,19 +1722,44 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FC1DAFC5016F4B92C24D753C769D68BF</key>
+		<key>EC67B67D269A310D482C3B14B4BB1635</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A971D358AB410B7FF22A24379B883675</string>
-				<string>FF6C7A264EB717D7727633D1A8F460A0</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-IOSLazyImage_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EDBBC510C7488499F5E8F88003B23F34</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-IOSLazyImage_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F088977E4B4AB07D61BDF62745F84378</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>IOSLazyImage-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FC93C3A8AE1F0A003EB0F009C3E80B9B</key>
 		<dict>
@@ -1701,79 +1774,6 @@
 			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC9453C6B406F5DEE36F50CC04ECFA83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9824843EF89378C9E63829DB79458AD0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>ED237509FEDB80B450E15217C3BC9533</string>
-				<string>0D39F4C6C726E95D15F2028A9B24E279</string>
-				<string>96E81C04CEAF4145BBEB7C2788CB6512</string>
-				<string>FC1DAFC5016F4B92C24D753C769D68BF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FDBC4979ED8008E7AFE9328CE04578CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>IOSLazyImage</string>
-			<key>productName</key>
-			<string>IOSLazyImage</string>
-			<key>productReference</key>
-			<string>D03365205668B9C9A0F7C80282BF427E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>FCEAC8762B1971E3A530AC90E1064775</key>
-		<dict>
-			<key>fileRef</key>
-			<string>22BCB7C927C1A84DB739F0A768060261</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FDBC4979ED8008E7AFE9328CE04578CC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>IOSLazyImage-IOSLazyImage</string>
-			<key>target</key>
-			<string>98F7588128304DC7BF3CC614E34750EB</string>
-			<key>targetProxy</key>
-			<string>6C0ABFCCFD587B8C48243FF808C7346F</string>
-		</dict>
-		<key>FF6C7A264EB717D7727633D1A8F460A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC18E8E2494FD5EC00B0CCE2603E66C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FF9494FE7938DD77F3E269276BE8E966</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FC9453C6B406F5DEE36F50CC04ECFA83</string>
-			<key>remoteInfo</key>
-			<string>IOSLazyImage</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

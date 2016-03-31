@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18CE6EFE2BEFCD71575D3DDB"
+               BlueprintIdentifier = "8019A657304CF1396A871324"
                BuildableName = "IOSLazyImage.framework"
                BlueprintName = "IOSLazyImage"
                ReferencedContainer = "container:Pods.xcodeproj">
