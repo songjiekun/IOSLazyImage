@@ -25,24 +25,27 @@ Only two lines of code.
 简单易用
 两行代码
 
-//do't forget to import
-#import <IOSLazyImage/IOSLIManager.h>
 
-//获取IOSLIManager   get IOSLIManager refrence
+don't forget to import <IOSLazyImage/IOSLIManager.h>
+
+获取IOSLIManager   get IOSLIManager refrence
+
+```objc
 IOSLIManager *liManager = [IOSLIManager getSharedManager];
+```
 
 //展示图片 display image
+```objc
 [liManager retrieveImage:imageurl defaultImageName:@"1.png" toImageView:cell.imageView];
+```
 
-
-/**
-*  异步获取图片到指定的UIImageView
-*
-*  @param imageUrl         图片url（image url)
-*  @param defaultImageName 默认图片（the name of the image inside main bundle which will play as default image while manager loading the real image）
-*  @param imageView        展示图片的imageview (the UIImageView which will display the lazy loaded image)
-*/
+异步获取图片到指定的UIImageView
+@param imageUrl         图片url（image url)
+@param defaultImageName 默认图片（the name of the image inside main bundle which will play as default image while manager loading the real image）
+@param imageView        展示图片的imageview (the UIImageView which will display the lazy loaded image)
+```objc
 -(void)retrieveImage:(NSString*)imageUrl defaultImageName:(NSString*)defaultImageName toImageView:(UIImageView*)imageView;
+```
 
 ## Requirements
 >ios 7.1
