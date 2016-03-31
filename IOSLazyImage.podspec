@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IOSLazyImage"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "An image manager library to help you lazily load image from remote url to your UIImageView"
 
 # This description is used to generate tags and improve search results.
