@@ -34,18 +34,12 @@ don't forget to import <IOSLazyImage/IOSLIManager.h>
 IOSLIManager *liManager = [IOSLIManager getSharedManager];
 ```
 
-//展示图片 display image
+提供图片url 默认图片的名称 以及图片对应uiimageview
+provide image url,default image file name and the imageview which will load the image
 ```objc
 [liManager retrieveImage:imageurl defaultImageName:@"1.png" toImageView:cell.imageView];
 ```
 
-异步获取图片到指定的UIImageView
-@param imageUrl         图片url（image url)
-@param defaultImageName 默认图片（the name of the image inside main bundle which will play as default image while manager loading the real image）
-@param imageView        展示图片的imageview (the UIImageView which will display the lazy loaded image)
-```objc
--(void)retrieveImage:(NSString*)imageUrl defaultImageName:(NSString*)defaultImageName toImageView:(UIImageView*)imageView;
-```
 
 ## Requirements
 >ios 7.1
