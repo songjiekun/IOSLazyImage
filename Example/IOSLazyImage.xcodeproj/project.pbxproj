@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		802629F21CAE225F00608294 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 802629F11CAE225F00608294 /* .travis.yml */; };
 		8095D75C1CACCAB90066A9C2 /* IOSLICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095D75A1CACCAB90066A9C2 /* IOSLICollectionViewCell.m */; };
 		8095D75D1CACCAB90066A9C2 /* IOSLICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8095D75B1CACCAB90066A9C2 /* IOSLICollectionViewCell.xib */; };
 		8095D75F1CACDEA20066A9C2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D75E1CACDEA20066A9C2 /* 1.png */; };
@@ -63,6 +64,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		802629F11CAE225F00608294 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		8095D7591CACCAB90066A9C2 /* IOSLICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSLICollectionViewCell.h; sourceTree = "<group>"; };
 		8095D75A1CACCAB90066A9C2 /* IOSLICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSLICollectionViewCell.m; sourceTree = "<group>"; };
 		8095D75B1CACCAB90066A9C2 /* IOSLICollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOSLICollectionViewCell.xib; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				802629F11CAE225F00608294 /* .travis.yml */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for IOSLazyImage */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -298,6 +301,7 @@
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				8095D7611CACE9860066A9C2 /* LaunchScreen.storyboard in Resources */,
 				8095D75D1CACCAB90066A9C2 /* IOSLICollectionViewCell.xib in Resources */,
+				802629F21CAE225F00608294 /* .travis.yml in Resources */,
 				8095D75F1CACDEA20066A9C2 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
