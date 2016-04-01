@@ -2,7 +2,7 @@
 
 [![CI Status](http://img.shields.io/travis/song jie kun/IOSLazyImage.svg?style=flat)](https://travis-ci.org/song jie kun/IOSLazyImage)
 [![Version](https://img.shields.io/cocoapods/v/IOSLazyImage.svg?style=flat)](http://cocoapods.org/pods/IOSLazyImage)
-[![License](https://img.shields.io/cocoapods/l/IOSLazyImage.svg?style=flat)](http://cocoapods.org/pods/IOSLazyImage)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/songjiekun/IOSLazyImage)
 [![Platform](https://img.shields.io/cocoapods/p/IOSLazyImage.svg?style=flat)](http://cocoapods.org/pods/IOSLazyImage)
 
 An image manager library to help you lazily load image from remote url to your UIImageView with only two lines of code.
