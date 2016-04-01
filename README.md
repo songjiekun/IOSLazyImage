@@ -61,9 +61,6 @@ it, simply add the following line to your Podfile:
 pod "IOSLazyImage"
 ```
 
-## Issues
-有时刷新的uiimageview对象会找错。
-
 ## Author
 
 宋介堃 (song jie kun), songjiekun@gmail.com
