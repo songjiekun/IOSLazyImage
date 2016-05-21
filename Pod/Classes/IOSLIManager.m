@@ -9,6 +9,35 @@
 #import "IOSLIManager.h"
 #import <CommonCrypto/CommonDigest.h>
 
+@interface IOSLIManager ()
+
+/**
+ *  io读取的多线程队列
+ */
+@property (nonatomic, strong) NSOperationQueue *ioQueue;
+
+/**
+ *  internet读取的多线程队列
+ */
+@property (nonatomic, strong) NSOperationQueue *internetQueue;
+
+/**
+ *  图片缓存
+ */
+@property (nonatomic, strong) NSCache *cache;
+
+/**
+ *  用来存放正在读取图片的imageView weak引用和url的key-value对
+ */
+@property (nonatomic, strong) NSMapTable *imageViewTable;
+
+/**
+ *  用来正在读取中的图片url
+ */
+@property (nonatomic, strong) NSMutableSet *imageUrlSet;
+
+@end
+
 @implementation IOSLIManager
 
 
@@ -77,6 +106,23 @@
          */
         
         [imageView setImage:cachedImage];
+        
+        /**
+         *  对于已经缓存的imageview从列表中删除//2016.5.21 错误图片刷新bug修复
+         */
+        if ([self.imageViewTable objectForKey:imageView]) {
+            
+            [self.imageViewTable removeObjectForKey:imageView];
+            
+        }
+        
+        if ([self.imageUrlSet containsObject:imageUrl]) {
+            
+            [self.imageUrlSet removeObject:imageUrl];
+            
+        }
+        
+        
         
         return;
         
@@ -253,6 +299,16 @@
         
     }
     
+    /**
+     *  删除url
+     */
+    if ([self.imageUrlSet containsObject:imageUrl]) {
+        
+        [self.imageUrlSet removeObject:imageUrl];
+        
+    }
+    
+    
 }
 
 /**
@@ -277,17 +333,19 @@
      *  判断newImageUrl 是否为新url
      *  判断newImageView 是否为新uiimageview
      */
-    for (UIImageView *imageView in self.imageViewTable) {
+    for (NSString *imageUrl in self.imageUrlSet ) {
         
-        NSString *url = [self.imageViewTable objectForKey:imageView];
-        
-        if ([url isEqualToString:newImageUrl]) {
+        if ([imageUrl isEqualToString:newImageUrl]) {
             
             isNewURL = false;
             
         }
         
-        if (imageView == newImageView) {
+    }
+    
+    for (UIImageView *imageView in self.imageViewTable) {
+        
+        if ([imageView isEqual:newImageView]) {
             
             isNewImageView = false;
             
@@ -295,6 +353,14 @@
         
     }
 
+    /**
+     *  新url添加入imageUrlSet列表
+     */
+    if (isNewURL) {
+        
+        [self.imageUrlSet addObject:newImageUrl];
+        
+    }
     
     
     /**

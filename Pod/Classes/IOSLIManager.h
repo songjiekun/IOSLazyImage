@@ -21,25 +21,7 @@
  */
 +(instancetype)getSharedManager;
 
-/**
- *  io读取的多线程队列
- */
-@property (nonatomic, strong) NSOperationQueue *ioQueue;
 
-/**
- *  internet读取的多线程队列
- */
-@property (nonatomic, strong) NSOperationQueue *internetQueue;
-
-/**
- *  图片缓存
- */
-@property (nonatomic, strong) NSCache *cache;
-
-/**
- *  用来存放正在读取图片的imageView weak引用
- */
-@property (nonatomic, strong) NSMapTable *imageViewTable;
 
 /**
  *  异步获取图片到指定的UIImageView
